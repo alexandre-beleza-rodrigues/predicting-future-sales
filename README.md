@@ -9,46 +9,16 @@ In this competition the objective was to predict future sales for a Russian firm
 
 <img src="images/results.png" width="800" />
 
+## Data Preprocessing
+Some of the steps I took while preprocessing the data wrere:
 
-
-## Code and Resources Used 
-**Python Version:** 3.7  
-**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle  
-**For Web Framework Requirements:**  ```pip install -r requirements.txt```  
-**Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
-
-## Web Scraping
-Scraped 800 job postings from glassdoor.com. With each job, we got the following:
-*	Job title
-*	Salary Estimate
-*	Job Description
-*	Rating
-*	Company 
-*	Location
-*	Company Size
-*	Company Founded Date
-*	Type of Ownership 
-*	Industry
-*	Sector
-*	Revenue
-
-## Data Cleaning
-After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
-
-*	Parsed numeric data out of salary 
-*	Made columns for employer provided salary and hourly wages 
-*	Removed rows without salary 
-*	Parsed rating out of company text 
-*	Made a new column for company state 
-*	Transformed founded date into age of company 
-*	Made columns for if different skills were listed in the job description:
-    * Python  
-    * R  
-    * Excel  
-    * AWS  
-    * Spark 
-*	Column for simplified job title and Seniority 
-*	Column for description length 
+* Preparing Item/Category Information
+* Preparing Sales Information
+* Constructing Training Dataframe
+* Adding Shop Information
+* Ages & Aggregating Sales/Price information
+* Lagging Values & Features that use Prior Information
+* Encoding Name Information 
 
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables.
