@@ -2,10 +2,10 @@
  
  falat um dos ficheiros e preciso rodar o primeiro notebook para o ter
  
-# Data Science Salary Estimator: Project Overview 
+# Kaggle 'Predict Future Sales': Project Overview (TOP 1%)
 In this competition the objective was to predict future sales for a Russian firm 1C Company. The prediction should contain next month sales for 5100 items at each of the 42 shops, with predictions being clipped into the range (0,20). The performance metric was RMSE. To inform these predictions we were given sales data covering the 33 months prior to the test period. 
 
-At the end I reached a very good score with an RMSE of only 0.85256 witch put me in the top 1% of the competition.
+**At the end I reached a very good score with an RMSE of only 0.85256 witch put me in the top 1% of the competition.**
 
 <img src="images/results.png" width="800" />
 
