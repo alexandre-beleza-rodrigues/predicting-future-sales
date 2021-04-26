@@ -5,10 +5,10 @@ In this competition the objective was to predict future sales for a Russian firm
 
 <img src="images/results.png" width="800" />
 
-Atention: Since the file was too big, if you want to run this code you will need to start with the data preprocessing file in orther to get the complete dataframe for the modeling part.
+Attention: Since the file was too big, if you want to run this code you will need to start with the data preprocessing file in order to get the complete dataframe for the modeling part.
 
 ## EDA
-In this step I anlalyse the data and took note of some preprocessing that could be done.
+In this step I analysed the data and took note of some preprocessing that could be done.
 
 ## Data Preprocessing
 Some of the steps I took while preprocessing the data were:
@@ -22,4 +22,4 @@ Some of the steps I took while preprocessing the data were:
 * Encoding Name Information 
 
 ## Model Building 
-To make the prediction I used the LightGBM algorithim and it worked great!
+To make the prediction I used the LightGBM algorithm and it worked great!
