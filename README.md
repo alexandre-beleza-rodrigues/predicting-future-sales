@@ -3,8 +3,6 @@ In this competition the objective was to predict future sales for a Russian firm
 
 **At the end I reached a very good score with an RMSE of only 0.85256 witch put me in the top 1% of the competition.**
 
-<img src="images/results.png" width="800" />
-
 Attention: Since the file was too big, if you want to run this code you will need to start with the data preprocessing file in order to get the complete dataframe for the modeling part.
 
 ## EDA
